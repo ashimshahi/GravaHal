@@ -57,6 +57,10 @@ public class Game {
 			currentMessage = currentPlayer.getPlayerName() + " does not own the selected pit";
 			return;
 		}
+		if (selectedPit.isEmpty()) {
+			currentMessage = "Empty pit. Select another one.";
+			return;
+		}
 		if (selectedPit.isGravaHalPit()) {
 			currentMessage = "Cannot move stones from GravaHal. " + currentPlayer.getPlayerName() + " to move.";
 			return;
