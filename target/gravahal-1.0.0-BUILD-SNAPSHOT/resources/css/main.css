@@ -1,0 +1,15 @@
+@CHARSET "UTF-8";
+img.gravahal {
+	height:200;
+}
+
+img {
+    height: 100;
+    width: 100;
+}
+
+div, table, td {
+	margin-left:auto; 
+    margin-right:auto;
+	text-align: center;
+}
